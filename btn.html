@@ -1,0 +1,62 @@
+<html>
+<head class="background">
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+$('#kunal').mouseenter(function(){
+$('#1').toggle();
+});
+$('#sham').mouseenter(function(){
+$('#2').toggle();})
+});
+$(document).reday(function(){
+
+
+});
+</script>
+<style>
+.table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	padding: 15px;
+}
+.background{
+
+background:linear-gadient("orange,white,greeen");
+}
+</style>
+</head>
+<body>
+
+<img src="sk.jpg" alt="my image" style="width:400px;height:250px;">
+<table style="width:50%" class="table, th, td">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+	<th>profile</th>
+	<th>image</th>
+  </tr>
+  <tr>
+		<td>KUNAl</td>
+		<td>HIRDEKAR</td> 
+		<td>23</td>
+		<th><button id="kunal">KUNAL profile</button></th>
+		<th><img id="k" src="kun.jpg" style="width:50px;height:25px;"></th>
+  </tr>
+  <tr>
+		<td>SHAMALI</td>
+		<td>THAKUR</td> 
+		<td>22</td>
+		<th><button id="sham">SHAMALI profile</button></th>
+		<th><img  id="p" src="sham.jpg" style="width:50px;height:25px;"></th>	
+		</tr>
+
+	</table>
+	<input type="text" name="email" id="login">login id</input>
+	<input type="password" name="password" id="password">login password</input>
+	<input type="button" name="login" id="button" value="Login">
+	<a href="https://www.facebook.com/" id="a"><a>
+	</body>
+
+</html>
